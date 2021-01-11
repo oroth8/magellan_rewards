@@ -1,0 +1,36 @@
+{
+  "name": "magellan_rewards",
+  "version": "1.0.0",
+  "description": "Magellan Rewards App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oroth8/magellan_rewards.git"
+  },
+  "author": "Owen Roth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oroth8/magellan_rewards/issues"
+  },
+  "homepage": "https://github.com/oroth8/magellan_rewards#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.10",
+    "nodemailer": "^6.4.17",
+    "nodemailer-sendgrid": "^1.0.3",
+    "normalize-url": "^5.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}
